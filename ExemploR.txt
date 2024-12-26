@@ -1,0 +1,26 @@
+print("hello world")
+1+1
+2*2
+8/4
+((20+7)/3)^2
+objeto1 <- 3*3
+objeto2 <- 2*2
+objeto3 <- objeto1 + objeto2
+objeto3
+print(objeto2)
+
+(casa <- "todas as letras são minusculas")
+(CASA <- "todas as letras são maiusculas")
+
+#Comentário
+
+#Pergunta
+#Seja um tubo com raio de 10 cm, com 1,5 metros de comprimento e com uma espessura de 1cm.Qual o volume deste cubo?Volume - PI x raio x altura.
+#Resposta
+raio <- 10
+espessura <- 1
+comprimento <- 70
+volume <- pi*(raio-espessura)^2*comprimento
+#calcular volume do cubo
+print(volume)
+
