@@ -1,0 +1,61 @@
+
+#X < Y
+#X > Y
+#X == Y
+#X != Y
+#X => Y
+#X <= Y
+
+X <- 10
+Y <- 20
+
+X < Y
+X > Y
+
+primeira_letra_terceiro_nome <- "J"
+primeira_letra_segundo_nome <- "M"
+
+primeira_letra_terceiro_nome  == primeira_letra_terceiro_nome 
+
+(primeiro.vetor1 <- c(1,3,5,9,10))
+(primeiro.vetor2 <- c(1,4,5,8,22))
+
+(primeiro.vetor3 <- c(primeiro.vetor1,primeiro.vetor2))
+
+A <- matrix(c(2,4,3,1,5,7),
+nrow = 2,
+ncol = 3,
+byrow = TRUE)
+
+print(A)
+
+
+B <- matrix(c(2,5,3,4,5,12),
+nrow = 2,
+ncol = 3,
+byrow = TRUE)
+
+print(A * B)
+
+
+# Create a vector
+x <- c(12,7,3,4.2,18,2,54,-21,8,-5)
+
+#Calcular média
+
+result.mean <- mean(x)
+print(result.mean)
+
+#Calcular mediana(calculo central de um vetor de valor)
+
+median.result <- median(x)
+print(median.result)
+
+y <- c(1,7,4,4.2,19,2,20,-21,48,-4)
+
+#Calcular média
+
+result.mean <- median(y)
+print(result.mean)
+
+
